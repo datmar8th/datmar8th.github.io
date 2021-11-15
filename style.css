@@ -1,0 +1,118 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+#nav-section{
+    background-color: white;
+}
+#nav-section ul{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 10px gray;
+}
+#nav-section ul li{
+    padding: 20px;
+}
+#nav-section ul li a{
+    text-decoration: none;
+    color: black;
+}
+#nav-section ul li a:hover{
+    color: cyan;
+}
+
+.container{
+    display: flex;
+    width: 1024px;
+}
+#about, #education, #programming-languages, #contact{
+    display: flex;
+    justify-content: center;
+}
+#about img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px gray;
+    transform: scaleX(-1);
+    margin: 100px 50px;
+}
+h1{
+    font-weight: 100;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+h2{
+    font-weight: 600;
+    margin-top: 0;
+    font-size: 25px;
+}
+#about ol{
+    list-style-type: disc;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 10px;
+}
+th{
+    color: dodgerblue;
+    background-color: beige;
+}
+
+#programming-languages img{
+    height: 100px;
+    width: 100px;
+    padding: 0 20px;
+}
+.list-logo{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#programming-languages .container, #contact .container{
+    display: unset;
+}
+
+input{
+    border: 1px solid #ddd;
+    font-size: 16px;
+    padding: 16px;
+    display: block;
+    width: 50%;
+}
+label{
+    display: block;
+    margin: 5px 0;
+}
+
+input[type='submit']{
+    background-color: blue;
+    color: white;
+    font-weight: 200;
+    width: 130px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+input[type='submit']:hover{
+    cursor: pointer;
+}
+
+footer{
+    background-color: #343a40;
+    text-align: center;
+    color: white;
+}
+footer p{
+    margin: 0;
+    padding: 10px;
+}
